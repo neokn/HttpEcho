@@ -1,0 +1,11 @@
+@Echo_HostAddress = http://localhost:5069
+
+GET {{Echo_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{Echo_HostAddress}}/todos/1
+Accept: application/json
+
+###
